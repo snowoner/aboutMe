@@ -28,6 +28,19 @@
           ></v-img>
         </v-card>
       </v-flex>
+       <v-flex xs12 class="b-grey cent">
+         <v-flex>
+           <strong>Contact me:</strong>
+           <a href="mailto:oscar.urgelles@gmail.com?Subject=ContactOscar" target="_top"> {{email}}&#64;gmail.com</a>
+           </v-flex>
+         <v-img
+          class="elevation-10"
+          max-width="310px"
+          max-height="300px"
+          contain
+          :src="require('../../public/OSCAR.png')"
+        ></v-img>
+       </v-flex>
     </v-layout>
   </v-container>
 </template>
@@ -39,9 +52,9 @@ export default {
       fisrt_name: "Oscar",
       last_name: "Urgelles Marsal",
       email: "oscar.urgelles",
-      skills: ["JavaScript", "Html", "Css", "Vue","Bootstrap", "React","Vuetify"],
-      skillsI: ["javascript.png", "html.png", "css.png", "vue.png","bootstrap.png","react.png", "vuetify.png"],
-      newSkill: [false, false, false, false, false, true, false]
+      skills: ["JavaScript", "Html", "Css", "Vue","Bootstrap", "React","Vuetify","Firebase"],
+      skillsI: ["javascript.png", "html.png", "css.png", "vue.png","bootstrap.png","react.png", "vuetify.png","firebase.png"],
+      newSkill: [false, false, false, false, false, true, false, false]
     };
   },
   methods: {}
