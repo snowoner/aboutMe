@@ -33,7 +33,9 @@
            <strong>Contact me:</strong>
            <a href="mailto:oscar.urgelles@gmail.com?Subject=ContactOscar" target="_top"> {{email}}&#64;gmail.com</a>
            </v-flex>
-         <v-img
+       </v-flex>
+       <v-flex xs12 class="b-grey cent">
+          <v-img
           class="elevation-10"
           max-width="310px"
           max-height="300px"
