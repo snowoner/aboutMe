@@ -11,7 +11,7 @@
         </v-carousel>
       </v-flex>
       <v-flex v-for="(skill,i) in skills" :key="skill" xs3 class="b-grey cent">
-        <v-card class="ccent pb-1" :class="{ news: newSkill[i]}" width="90px">
+        <v-card to="/proyectos" class="ccent pb-1" :class="{ news: newSkill[i]}" width="90px">
           {{skill}}
           <v-img
             class="box bounce-5"
@@ -134,7 +134,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .center {
   margin: auto;
   padding: 0px;
@@ -146,7 +146,6 @@ export default {
   align-items: center;
   flex-direction: column;
 }
-
 .cent {
   display: flex;
   justify-content: center;
